@@ -1,0 +1,14 @@
+{
+  "files": [
+    {
+      "type": "image",
+      "key": "logo",
+      "url": "images/logo.png"
+    },
+    {
+      "type": "image",
+      "key": "background",
+      "url": "images/bg.png"
+    }
+  ]
+}

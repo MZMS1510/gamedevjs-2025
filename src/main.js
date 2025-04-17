@@ -1,3 +1,4 @@
+import { Preloader } from "./scenes/Preloader";
 import { Game as MainGame } from "./scenes/Game";
 import { AUTO, Scale, Game } from "phaser";
 
@@ -11,7 +12,7 @@ const config = {
     mode: Scale.FIT,
     autoCenter: Scale.CENTER_BOTH,
   },
-  scene: [MainGame],
+  scene: [Preloader, MainGame],
 };
 
 export default new Game(config);
